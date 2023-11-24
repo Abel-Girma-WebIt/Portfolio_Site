@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color:white;
+  width: 100%;
+}
+
+#header_name {
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#main_div{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#header_cont{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+#header_ul{
+
+  width: 70%;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header_list{
+  margin: 8px;
+  cursor: pointer;
+  font-size: large;
+  text-decoration: none;
+}
+
+.header_list:hover{
+
+  color: blue;
+
+}
+
+#main_cont{
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+
+}
+
+#my_photo{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+#my_photo:hover{
+  transform:rotate(360deg);
+  border-width: 5px;
+}
+
+#about_sec{
+  width: 50%;
+}
+
+#img_sec{
+  display: flex;
+  flex-direction: column;
+  
+  width: 50%;
+}
+
+#social_icon_cont{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.social{
+  
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+}
+
+#about_sec{
+ width: 100%;
+  margin-top: 30px;
+}
+
+#skills-Cont{
+
+  margin-top: 30px;
+width:100%;
+display: grid;
+grid-template-columns: auto auto auto;
+
+
+}
+
+.skills{
+
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.skills:hover{
+
+  color: red;
+}
+
+#skills_sec{
+
+width: 100%;
+margin-top: 30px;
+}
+
+#service_list{
+
+display: grid;
+grid-template-columns: auto auto;
+grid-gap: 50px;
+
+}
+
+.services{
+  
+  
+  width: 200px;
+  padding-right: 70px;
+  box-shadow: 0.8px 0.8px 1px 1px black;
+  background-color: white;
+  padding: 60px;
+  border-radius: 20px;
+  margin:30px;
+}
+
+.services:hover{
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer{
+  width: 100%;
+  margin: 40px;
+  background-color: black;
+  padding: 100px;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
